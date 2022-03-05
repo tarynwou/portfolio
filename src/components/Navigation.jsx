@@ -2,6 +2,7 @@ import * as React from "react";
 import Logo from "../images/tw-logo-1.png";
 import "bootstrap/dist/css/bootstrap.css";
 import "../images/images.css";
+import "../components/components.css";
 
 function Navigation() {
 	return (
@@ -15,26 +16,41 @@ function Navigation() {
 				</div>
 				{/* //navlinks */}
 				<div class="col-lg-6">
-					{/* //About */}
-					<div className="navlink">
-						<a href="">About</a>
-					</div>
-					{/* //Portfolio */}
-					<div className="navlink">
-						<a href="">Portfolio</a>
-					</div>
-					{/* //Experience */}
-					<div className="navlink">
-						<a href="">Experience</a>
-					</div>
-					{/* //Resume */}
-					<div className="navlink">
-						<a href="">Resume</a>
-					</div>
-					{/* //Contact */}
-					<div className="navlink" id="contact-button">
-						<a href="mailto:tarynwou@gmail.com">Contact</a>
-					</div>
+					<ul className="navbar-links">
+						{/* //About */}
+						<li className="navitem" id="contact-button">
+							<a
+								className="navlink"
+								href="mailto:tarynwou@gmail.com"
+							>
+								Contact
+							</a>
+						</li>
+						{/* //Portfolio */}
+						<li className="navitem">
+							<a className="navlink" href="">
+								Resume
+							</a>
+						</li>
+						{/* //Experience */}
+						<li className="navitem">
+							<a className="navlink" href="">
+								Experience
+							</a>
+						</li>
+						{/* //Resume */}
+						<li className="navitem">
+							<a className="navlink" href="">
+								Portfolio
+							</a>
+						</li>
+						{/* //Contact */}
+						<li className="navitem">
+							<a className="navlink" href="">
+								About
+							</a>
+						</li>
+					</ul>
 				</div>
 			</div>
 		</div>
