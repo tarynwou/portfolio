@@ -1,5 +1,9 @@
 import * as React from "react";
 import Navigation from "../components/Navigation";
+import Logo from "../images/tw-logo-1.png";
+import Headshot from "../images/Headshot.png";
+import "bootstrap/dist/css/bootstrap.css";
+import "../images/images.css";
 
 // styles
 const pageStyles = {
@@ -80,25 +84,47 @@ const badgeStyle = {
 };
 
 // markup
-const IndexPage = () => {
+// const IndexPage = () => {
+function IndexPage() {
 	return (
-		<main style={pageStyles}>
+		// <main style={pageStyles}>
+		<div style={pageStyles}>
 			{/* <title>Taryn Wou</title> */}
-			<Navigation></Navigation>
-			<p>Hi, my name is</p>
-			<h1 style={headingStyles}>
-				Taryn Wou.
-				<br />
-			</h1>
-			<h1>I am a developer.</h1>
-			<p>
-				As a business and computer science student at the University of
-				British Columbia, I am actively looking for opportunities to
-				develop my technical abilities and drive value back into the
-				community.
-			</p>
-		</main>
+			<div class="container">
+				<div class="row">
+					<Navigation></Navigation>
+				</div>
+				<br></br>
+				<br></br>
+				<br></br>
+				<br></br>
+				<div class="row">
+					<div class="col-lg-4">
+						<img
+							className="headshot"
+							src={Headshot}
+							alt="Taryn Wou Headshot"
+						/>
+					</div>
+					<div class="col-lg-8">
+						<p>Hi, my name is</p>
+						<h1 style={headingStyles}>
+							Taryn Wou.
+							<br />
+						</h1>
+						<h1>I am a developer.</h1>
+						<p>
+							As a business and computer science student at the
+							University of British Columbia, I am actively
+							looking for opportunities to develop my technical
+							abilities and drive value back into the community.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		// </main>
 	);
-};
+}
 
 export default IndexPage;
