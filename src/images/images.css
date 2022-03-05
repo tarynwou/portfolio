@@ -1,0 +1,15 @@
+.logo {
+	width: 75px;
+	height: auto;
+	display: block;
+	float: left;
+	/* margin-right: 10%; */
+}
+
+.headshot {
+	max-width: 80%;
+	height: auto;
+	display: block;
+	float: right;
+	margin-right: 10%;
+}
