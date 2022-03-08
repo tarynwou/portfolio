@@ -28,13 +28,15 @@ function IndexPage() {
 						/>
 					</div>
 					<div class="col-lg-8">
-						<p>Hi, my name is</p>
+						<p className="title-hi">Hi, my name is</p>
 						<h1 className="title-font">
 							Taryn Wou.
 							<br />
 						</h1>
-						<h1>I am a developer.</h1>
-						<p>
+						<h1 className="title-font" id="title-dev">
+							I am a developer.
+						</h1>
+						<p className="title-about">
 							As a business and computer science student at the
 							University of British Columbia, I am actively
 							looking for opportunities to develop my technical
