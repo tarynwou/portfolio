@@ -1,5 +1,5 @@
 :root {
-	--blue: #2c4dff;
+	--highlight: #2c4dff;
 }
 .page-style {
 	/* color: "#232129"; */
@@ -27,7 +27,7 @@
 }
 
 #title-dev {
-	color: var(--blue);
+	color: var(--highlight);
 }
 
 .title-about {

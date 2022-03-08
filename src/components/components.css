@@ -1,5 +1,5 @@
 :root {
-	--blue: #2c4dff;
+	--highlight: #2c4dff;
 }
 
 .navbar-links {
@@ -11,7 +11,7 @@ a.navlink:link {
 	text-decoration: none;
 }
 a.navlink:hover {
-	color: var(--blue);
+	color: var(--highlight);
 	text-decoration: none;
 	/* font-weight: bold; */
 }
