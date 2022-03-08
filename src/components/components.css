@@ -7,9 +7,12 @@ a.navlink:link {
 	text-decoration: none;
 }
 a.navlink:hover {
+	color: #3046b7;
+	text-decoration: none;
+}
+a.navlink:visited {
 	color: black;
 	text-decoration: none;
-	font-weight: bold;
 }
 
 .navitem {
