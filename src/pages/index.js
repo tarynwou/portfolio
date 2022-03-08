@@ -2,6 +2,7 @@ import * as React from "react";
 import Navigation from "../components/Navigation";
 import Logo from "../images/tw-logo-1.png";
 import Headshot from "../images/Headshot.png";
+import Arrow from "../images/down-arrow.png";
 import "bootstrap/dist/css/bootstrap.css";
 import "../images/images.css";
 import "../pages/pages.css";
@@ -15,7 +16,6 @@ function IndexPage() {
 				<div class="row">
 					<Navigation></Navigation>
 				</div>
-				<br></br>
 				<br></br>
 				<br></br>
 				<br></br>
@@ -43,6 +43,12 @@ function IndexPage() {
 							abilities and drive value back into the community.
 						</p>
 					</div>
+				</div>
+				<div class="row">
+					<p className="next-sect-link">more about me</p>
+				</div>
+				<div class="row">
+					<img className="arrow" src={Arrow} alt="Down Arrow" />
 				</div>
 			</div>
 		</div>
