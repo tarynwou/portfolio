@@ -28,7 +28,7 @@ function IndexPage() {
 						/>
 					</div>
 					<div class="col-lg-8">
-						<p className="title-hi">Hi, my name is</p>
+						<p id="title-hi">Hi, my name is</p>
 						<h1 className="title-font">
 							Taryn Wou.
 							<br />
