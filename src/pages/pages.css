@@ -1,3 +1,6 @@
+:root {
+	--blue: #3046b7;
+}
 .page-style {
 	/* color: "#232129"; */
 	padding: 96px;
@@ -7,10 +10,30 @@
 }
 
 .title-font {
-	margin-top: 0;
-	font-family: "Calibre", "Inter", "San Francisco", "SF Pro Text",
-		-apple-system, system-ui, sans-serif;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	font-size: 96px;
+	font-weight: bold;
+	/* font-family: "Calibre", "Inter", "San Francisco", "SF Pro Text",
+		-apple-system, system-ui, sans-serif; */
+	font-family: "San Francisco", "SF Pro Text", -apple-system, system-ui,
+		sans-serif;
+
 	/* font-family: "SF Pro", "Fira Code", "Fira Mono", "Roboto Mono", monospace; */
 	/* margin-bottom: 64;
 	max-width: 320; */
+}
+
+#title-dev {
+	color: var(--blue);
+}
+
+.title-about {
+	padding-top: 20px;
+}
+
+.title-hi {
+	padding-top: 30px;
 }

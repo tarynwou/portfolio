@@ -1,3 +1,7 @@
+:root {
+	--blue: #3046b7;
+}
+
 .navbar-links {
 	list-style-type: none;
 	margin: 0;
@@ -7,8 +11,9 @@ a.navlink:link {
 	text-decoration: none;
 }
 a.navlink:hover {
-	color: #3046b7;
+	color: var(--blue);
 	text-decoration: none;
+	/* font-weight: bold; */
 }
 a.navlink:visited {
 	color: black;
