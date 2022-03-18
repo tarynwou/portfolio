@@ -90,6 +90,43 @@ function IndexPage() {
 				<div class="row">
 					<img className="arrow" src={Arrow} alt="Down Arrow" />
 				</div>
+				<div class="row align-items-center">
+					<h1 className="title-font" id="title-portfolio">
+						Portfolio
+					</h1>
+				</div>
+				<div class="row">
+					<div class="col-lg-3"></div>
+					<div class="col-lg-6">
+						<ul className="portfolio-links">
+							{/* //Websites */}
+							<li className="portfolio-navitem">
+								<a className="navlink" href="">
+									Websites
+								</a>
+							</li>
+							{/* //Applications */}
+							<li className="portfolio-navitem">
+								<a className="navlink" href="">
+									Applications
+								</a>
+							</li>
+							{/* //Graphics */}
+							<li className="portfolio-navitem">
+								<a className="navlink" href="">
+									Graphics
+								</a>
+							</li>
+							{/* //Photos */}
+							<li className="portfolio-navitem">
+								<a className="navlink" href="">
+									Photos
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-lg-3"></div>
+				</div>
 			</div>
 		</div>
 	);
