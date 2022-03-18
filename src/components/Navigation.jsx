@@ -17,7 +17,7 @@ function Navigation() {
 				{/* //navlinks */}
 				<div class="col-lg-6">
 					<ul className="navbar-links">
-						{/* //About */}
+						{/* //Contact */}
 						<li className="navitem" id="contact-button">
 							<a
 								className="navlink"
@@ -26,7 +26,7 @@ function Navigation() {
 								Contact
 							</a>
 						</li>
-						{/* //Portfolio */}
+						{/* //Resume */}
 						<li className="navitem">
 							<a className="navlink" href="">
 								Resume
@@ -38,13 +38,13 @@ function Navigation() {
 								Experience
 							</a>
 						</li>
-						{/* //Resume */}
+						{/* //Portfolio */}
 						<li className="navitem">
 							<a className="navlink" href="">
 								Portfolio
 							</a>
 						</li>
-						{/* //Contact */}
+						{/* //About */}
 						<li className="navitem">
 							<a className="navlink" href="">
 								About
