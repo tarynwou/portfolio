@@ -2,6 +2,7 @@ import * as React from "react";
 import Navigation from "../components/Navigation";
 import Logo from "../images/tw-logo-1.png";
 import Headshot from "../images/Headshot.png";
+import Headshot2 from "../images/Headshot-2.png";
 import Arrow from "../images/down-arrow.png";
 import "bootstrap/dist/css/bootstrap.css";
 import "../images/images.css";
@@ -24,7 +25,7 @@ function IndexPage() {
 					<div class="col-lg-4">
 						<img
 							className="headshot"
-							src={Headshot}
+							src={Headshot2}
 							alt="Taryn Wou Headshot"
 						/>
 					</div>
