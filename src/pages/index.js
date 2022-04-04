@@ -4,6 +4,13 @@ import Logo from "../images/tw-logo-1.png";
 import Headshot from "../images/Headshot.png";
 import Headshot2 from "../images/Headshot-2.png";
 import Arrow from "../images/down-arrow.png";
+import Kaitlin from "../images/kaitlin.png";
+import NightDrip from "../images/night-drip.png";
+import TarynSelfie from "../images/taryn-selfie.png";
+import TreeCard from "../images/tree-card.png";
+import YhyTaryn from "../images/yhy-taryn.png";
+import AirplanePanes from "../images/airplane-panes.png";
+
 import "bootstrap/dist/css/bootstrap.css";
 import "../images/images.css";
 import "../pages/pages.css";
@@ -143,6 +150,24 @@ function IndexPage() {
 						</ul>
 					</div>
 					<div class="col-lg-3"></div>
+				</div>
+				<div className="gallery-row">
+					<div className="gallery-column">
+						<img src={Kaitlin} alt="Character Graphic" />
+						<img src={TarynSelfie} alt="Character Graphic" />
+					</div>
+					<div className="gallery-column">
+						<img src={NightDrip} alt="Scenic Graphic" />
+						<img src={AirplanePanes} alt="Scenic Graphic" />
+					</div>
+					<div className="gallery-column">
+						<img src={YhyTaryn} alt="Character Graphic" />
+						<img src={Kaitlin} alt="Character Graphic" />
+					</div>
+					<div className="gallery-column">
+						<img src={TreeCard} alt="Object Graphic" />
+						<img src={NightDrip} alt="Scenic Graphic" />
+					</div>
 				</div>
 			</div>
 		</div>
