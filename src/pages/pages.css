@@ -26,22 +26,32 @@
 	max-width: 320; */
 }
 
-#title-dev {
-	color: var(--highlight);
+#title-hi {
+	padding-top: 30px;
+	font-size: 20px;
+	/* font-weight: 600; */
 }
 
-#title-portfolio {
-	text-align: center;
+#title-dev {
+	color: var(--highlight);
 }
 
 .title-about {
 	padding-top: 20px;
 }
 
-#title-hi {
-	padding-top: 30px;
-	font-size: 20px;
-	/* font-weight: 600; */
+#title-about-me {
+	font-size: 80px;
+	padding-bottom: 10px;
+	padding-left: 5%;
+}
+
+#about-me-blurb {
+	padding-left: 5%;
+}
+
+#title-portfolio {
+	text-align: center;
 }
 
 .next-sect-link {
