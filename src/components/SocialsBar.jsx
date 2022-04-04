@@ -1,4 +1,8 @@
 import * as React from "react";
+// import Headshot from "../images/github-logo.png";
+// import Headshot from "../images/linkedin-logo.png";
+// import Headshot from "../images/instagram-logo.png";
+// import Headshot from "../images/email-icon.png";
 import "bootstrap/dist/css/bootstrap.css";
 import "../images/images.css";
 import "../components/components.css";
